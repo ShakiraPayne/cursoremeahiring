@@ -1,1 +1,507 @@
-file:///Users/shakirapayne/Downloads/index%20(2).html
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor EMEA hiring</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            background: #000;
+            color: white;
+            padding: 60px 50px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 50px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+            animation: slideIn 0.4s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .section-header {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #000;
+        }
+
+        .section-number {
+            display: inline-block;
+            background: #000;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.5em;
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+
+        .section-title {
+            font-size: 2.2em;
+            font-weight: 700;
+            color: #000;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .section-content {
+            margin-top: 30px;
+        }
+
+        .editable-content {
+            min-height: 200px;
+            padding: 25px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            transition: all 0.3s ease;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .editable-content {
+            cursor: default;
+            user-select: text;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 50px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 30px;
+            border-top: 2px solid #ddd;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border: 2px solid #000;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: #000;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #333;
+            border-color: #333;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #000;
+        }
+
+        .btn-secondary:hover {
+            background: #f5f5f5;
+        }
+
+        .nav-menu {
+            padding: 20px 50px;
+            background: #f5f5f5;
+            border-bottom: 2px solid #ddd;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-item {
+            padding: 10px 20px;
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            color: #333;
+        }
+
+        .nav-item:hover {
+            border-color: #000;
+            background: #f5f5f5;
+        }
+
+        .nav-item.active {
+            background: #000;
+            color: white;
+            border-color: #000;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            .header, .nav-menu, .action-buttons, .auto-save-indicator {
+                display: none;
+            }
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 40px 30px;
+            }
+
+            .header h1 {
+                font-size: 2.2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .section-title {
+                font-size: 1.6em;
+            }
+
+            .nav-menu {
+                padding: 15px 20px;
+            }
+
+        }
+    </style>
+    <!-- Embedded data - this preserves your content when sharing -->
+    <script id="embedded-data" type="application/json">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Cursor EMEA hiring</h1>
+            <p>My approach to building teams in new regions</p>
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+            <div class="nav-item" onclick="scrollToSection(1)">1. Talent Strategy</div>
+            <div class="nav-item" onclick="scrollToSection(2)">2. Process &amp; Collaboration</div>
+            <div class="nav-item" onclick="scrollToSection(3)">3. Market Understanding</div>
+            <div class="nav-item" onclick="scrollToSection(4)">4. Employer Brand</div>
+        </div>
+
+        <div class="content">
+            <!-- Section 1: Talent Strategy and Org Design -->
+            <div class="section" id="section-1">
+                <div class="section-header">
+                    <span class="section-number">1</span>
+                    <h2 class="section-title">Talent Strategy and Org Design</h2>
+                </div>
+                <div class="section-content">
+                    <div class="editable-content" id="section1-content">-  Founding team DNA: Autonomous builders comfortable with ambiguity and able to influence culture.<br>- Clarify org design and which leadership roles are needed early on.<br>- Identify which roles to unlock first (typically a top down approach).<br>- If leadership sit in the US our first hire will be a key hire for the team - they'll ideally be a senior hire and have a player coach mentality.<br>- Build a repeatable sourcing engine (outbound, referrals, warm intro's, inbound).</div>
+                </div>
+            </div>
+
+            <!-- Section 2: Process and Collaboration Across Timezones -->
+            <div class="section" id="section-2">
+                <div class="section-header">
+                    <span class="section-number">2</span>
+                    <h2 class="section-title">Process and Collaboration Across Timezones</h2>
+                </div>
+                <div class="section-content">
+                    <div class="editable-content" id="section2-content">- Build processes optimised for a-sync + timezone differences. (Kick-off documents, interview plans, rubrics, clear SLAs).<br>- Keep velocity high despite time-zone gaps: planned interview loops, predictable scheduling. <br>- Ensure consistent processes where possible across US + UK.<br>- Know when to escalate immediately <br>- Schedule weekly meetings / standing syncs <br>- Weekly reporting for hiring managers + execs. </div>
+                </div>
+            </div>
+
+            <!-- Section 3: Localisation and Market Understanding -->
+            <div class="section" id="section-3">
+                <div class="section-header">
+                    <span class="section-number">3</span>
+                    <h2 class="section-title">Market Understanding</h2>
+                </div>
+                <div class="section-content">
+                    <div class="editable-content" id="section3-content">- Understand compensation norms across UK/EU.<br>- Factor in employment law differences: notice periods, holidays, parental leave etc<br>- Know how talent pools vary across EMEA and the implications for sourcing (consider language requirements).<br>- Market competitiveness and speed (some markets move slower than others) <br>- Candidate behaviour and cultural nuances: communication style, interview style, typical motivators) <br>- Clear understanding of competitors in the region and market trends. <br><br><br><br></div>
+                </div>
+            </div>
+
+            <!-- Section 4: Employer Brand in a New Region -->
+            <div class="section" id="section-4">
+                <div class="section-header">
+                    <span class="section-number">4</span>
+                    <h2 class="section-title">Employer Brand in a New Region</h2>
+                </div>
+                <div class="section-content">
+                    <div class="editable-content" id="section4-content">- Craft a compelling narrative: "Founding team for EMEA HQ" <br>- Tell the story<br>- Run recruiting events or just meet people in person! <br>- Attend / sponsor conferences <br>- Localise messaging <br>- Build relationships (social groups, events) <br>- Capture and share wins </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="embedContentAndDownload()">Save with Content (for GitHub)</button>
+                <button class="btn btn-secondary" onclick="exportPlan()">Export as Text</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        // Collect all plan data
+        function collectPlanData() {
+            return {
+                section1: document.getElementById('section1-content').innerText,
+                section2: document.getElementById('section2-content').innerText,
+                section3: document.getElementById('section3-content').innerText,
+                section4: document.getElementById('section4-content').innerText
+            };
+        }
+
+        // Load plan from embedded data or localStorage
+        function loadPlan() {
+            try {
+                // First check if content is already in the HTML divs (for deployed files)
+                const s1 = document.getElementById('section1-content');
+                const s2 = document.getElementById('section2-content');
+                const s3 = document.getElementById('section3-content');
+                const s4 = document.getElementById('section4-content');
+                
+                // If divs already have content, don't overwrite (for deployed version)
+                if (s1 && s1.textContent.trim()) {
+                    return; // Content already embedded in HTML
+                }
+                
+                // Otherwise, try to load from embedded data script tag
+                const embeddedDataElement = document.getElementById('embedded-data');
+                let planData = null;
+                
+                if (embeddedDataElement && embeddedDataElement.textContent.trim()) {
+                    try {
+                        planData = JSON.parse(embeddedDataElement.textContent);
+                    } catch (e) {
+                        console.log('No embedded data found');
+                    }
+                }
+                
+                // If no embedded data, try localStorage
+                if (!planData) {
+                    const saved = localStorage.getItem('cursorRecruitingPlan');
+                    if (saved) {
+                        planData = JSON.parse(saved);
+                    }
+                }
+                
+                if (planData) {
+                    // Handle both old format (with nested structure) and new format
+                    if (planData.section1) {
+                        if (typeof planData.section1 === 'string') {
+                            // New format
+                            setContent('section1-content', planData.section1);
+                        } else {
+                            // Old format - combine all content
+                            let combined = '';
+                            if (planData.section1.foundingDna) combined += planData.section1.foundingDna + '\n\n';
+                            if (planData.section1.sequenceHires) combined += planData.section1.sequenceHires + '\n\n';
+                            if (planData.section1.notes) combined += planData.section1.notes;
+                            setContent('section1-content', combined.trim());
+                        }
+                    }
+                    
+                    if (planData.section2) {
+                        const content = typeof planData.section2 === 'string' ? planData.section2 : planData.section2.content || '';
+                        setContent('section2-content', content);
+                    }
+                    
+                    if (planData.section3) {
+                        const content = typeof planData.section3 === 'string' ? planData.section3 : planData.section3.content || '';
+                        setContent('section3-content', content);
+                    }
+                    
+                    if (planData.section4) {
+                        const content = typeof planData.section4 === 'string' ? planData.section4 : planData.section4.content || '';
+                        setContent('section4-content', content);
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading plan:', error);
+            }
+        }
+
+        function setContent(id, content) {
+            const element = document.getElementById(id);
+            if (element && content) {
+                element.innerText = content;
+            }
+        }
+
+        // Scroll to section
+        function scrollToSection(num) {
+            const section = document.getElementById('section-' + num);
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            
+            // Update active nav item
+            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        // Export plan
+        function exportPlan() {
+            const data = collectPlanData();
+            let exportText = 'CURSOR EMEA HIRING\n';
+            exportText += '='.repeat(50) + '\n\n';
+
+            exportText += '1. TALENT STRATEGY AND ORG DESIGN\n';
+            exportText += '-'.repeat(50) + '\n';
+            exportText += `${data.section1 || 'Not specified'}\n\n\n`;
+
+            exportText += '2. PROCESS AND COLLABORATION ACROSS TIMEZONES\n';
+            exportText += '-'.repeat(50) + '\n';
+            exportText += `${data.section2 || 'Not specified'}\n\n\n`;
+
+            exportText += '3. MARKET UNDERSTANDING\n';
+            exportText += '-'.repeat(50) + '\n';
+            exportText += `${data.section3 || 'Not specified'}\n\n\n`;
+
+            exportText += '4. EMPLOYER BRAND IN A NEW REGION\n';
+            exportText += '-'.repeat(50) + '\n';
+            exportText += `${data.section4 || 'Not specified'}\n\n`;
+
+            exportText += '\n' + '='.repeat(50) + '\n';
+            exportText += `Generated on: ${new Date().toLocaleString()}\n`;
+
+            // Create and download file
+            const blob = new Blob([exportText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'cursor-recruiting-plan.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+
+
+
+        // Embed content directly in HTML and download
+        function embedContentAndDownload() {
+            const data = collectPlanData();
+            
+            // Escape HTML special characters
+            function escapeHtml(text) {
+                if (!text) return '';
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+            
+            // Get current HTML
+            const htmlTemplate = document.documentElement.outerHTML;
+            
+            // Embed content directly in the divs
+            let finalHtml = htmlTemplate;
+            const s1Content = escapeHtml(data.section1 || '');
+            const s2Content = escapeHtml(data.section2 || '');
+            const s3Content = escapeHtml(data.section3 || '');
+            const s4Content = escapeHtml(data.section4 || '');
+            
+            finalHtml = finalHtml.replace(
+                /<div class="editable-content" id="section1-content"><\/div>/,
+                '<div class="editable-content" id="section1-content">' + s1Content + '</div>'
+            );
+            finalHtml = finalHtml.replace(
+                /<div class="editable-content" id="section2-content"><\/div>/,
+                '<div class="editable-content" id="section2-content">' + s2Content + '</div>'
+            );
+            finalHtml = finalHtml.replace(
+                /<div class="editable-content" id="section3-content"><\/div>/,
+                '<div class="editable-content" id="section3-content">' + s3Content + '</div>'
+            );
+            finalHtml = finalHtml.replace(
+                /<div class="editable-content" id="section4-content"><\/div>/,
+                '<div class="editable-content" id="section4-content">' + s4Content + '</div>'
+            );
+            
+            // Download the file
+            const blob = new Blob([finalHtml], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'index.html';
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            alert('File downloaded! Upload this index.html to GitHub to see your content.');
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            loadPlan();
+        });
+
+    </script>
+
+
+</body></html>
